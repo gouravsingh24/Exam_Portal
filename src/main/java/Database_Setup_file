@@ -1,0 +1,9 @@
+Create a Database "exam"
+Create a Table "instructions"
+							create a column "instruction" and set varchar(100)
+Create a Table "plans"
+					create a column "account no" and set varchar(10) , column "bank" set varchar(25), column "plan" varchar(25)
+Create a Table "questions"
+						create a column "question" and set varchar(100), column "A" set varchar(25), column "B" set varchar(25), column "C" set varchar(25), column "D" set varchar(25), column "answer" set varchar(25)
+Create a Table "registration"
+						create a column "username" set varchar(25) , column "email" set varchar(25), column "password" set varchar(25), column "phone" set varchar(10), column "address" varchar(50) , column "type" varchar(10)

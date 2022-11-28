@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AdminManageServlet</servlet-name>
+  	<display-name>AdminManageServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.controller.AdminManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>InstructionServlet</servlet-name>
+  	<display-name>InstructionServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.controller.InstructionServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PLanServlet</servlet-name>
+  	<display-name>PLanServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.controller.PLanServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>QuestionServlet</servlet-name>
+  	<display-name>QuestionServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.controller.QuestionServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserServlet</servlet-name>
+  	<display-name>UserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.controller.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdminManageServlet</servlet-name>
+  	<url-pattern>/AdminManageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InstructionServlet</servlet-name>
+  	<url-pattern>/InstructionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PLanServlet</servlet-name>
+  	<url-pattern>/PlanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>QuestionServlet</servlet-name>
+  	<url-pattern>/QuestionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserServlet</servlet-name>
+  	<url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
